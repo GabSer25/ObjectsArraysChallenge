@@ -35,3 +35,15 @@ feedback.push({
 }); // Add new feedback
 
 console.log("Customer Feedback List:", feedback); // Log the feedback array
+// Task 5: Inventory Management System
+let inventory = {
+  itemName: "Dunder Mifflin Premium Paper Reams",
+  stockCount: 300,
+  price: 19.99,
+  calculateTotalValue: function () {
+    return this.stockCount * this.price;
+  }
+};
+
+console.log("Inventory Details:", inventory); // Log inventory details
+console.log("Total Inventory Value:", inventory.calculateTotalValue()); // Log total value
