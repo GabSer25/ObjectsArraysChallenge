@@ -21,3 +21,17 @@ let employee = {
 employee.performanceScore = 90; // Update performance score
 employee.promotionEligible = true; // Add new property
 console.log("Updated Employee Data:", employee); // Log the employee object
+// Task 4: Customer Feedback Records
+let feedback = [
+  { customerName: "Jim Halpert", feedbackText: "Great service and quality paper!", rating: 4 },
+  { customerName: "Pam Beesly", feedbackText: "I love using this paper for my art projects.", rating: 5 },
+  { customerName: "Stanley Hudson", feedbackText: "It’s just paper. Works fine.", rating: 3 }
+];
+
+feedback.push({
+  customerName: "Dwight Schrute",
+  feedbackText: "This paper is the perfect choice for beet invoices!",
+  rating: 5
+}); // Add new feedback
+
+console.log("Customer Feedback List:", feedback); // Log the feedback array
